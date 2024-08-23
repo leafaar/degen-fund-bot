@@ -1,0 +1,19 @@
+[package]
+name = "degen-fund-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+bincode = "1.3.3"
+bs58 = "0.5.1"
+chrono = "0.4.38"
+dotenv = "0.15.0"
+env_logger = "0.11.5"
+log = "0.4.22"
+reqwest = { version = "0.11", features = ["json"] }
+solana-client = "2.0.6"
+solana-sdk = "2.0.6"
+tokio = { version = "1.39.3", features = ["full"] }
+colored = "2.1.0"
+indicatif = "0.17.8"
